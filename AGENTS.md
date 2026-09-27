@@ -7,9 +7,9 @@ Documents are in Russian; this file is in English, like the `AGENTS.md` of the p
 ## You are probably working in a project repository
 
 Every project of the studio (`Nefeste/votchina`, `Nefeste/nardy`, `Nefeste/anamnez`,
-`Nefeste/skazy`, `Nefeste/uzory`, the site `Nefeste/gornitsagames`) links here from its own
-`AGENTS.md`. Read this charter **before changing anything in any project**, and again after a
-context reset. The repository is public; fetch files with
+`Nefeste/skazy`, `Nefeste/uzory`, the site `Nefeste/gornitsagames`, the gateway `Nefeste/seni`)
+links here from its own `AGENTS.md`. Read this charter **before changing anything in any
+project**, and again after a context reset. The repository is public; fetch files with
 
 ```
 https://raw.githubusercontent.com/Nefeste/gornitsa/main/<path>
@@ -28,7 +28,8 @@ Read in this order (about 30 minutes):
 6. The rest when the task touches it: `docs/06-content.md` before adding any text, picture or
    sound from outside; `docs/07-privacy.md` before touching anything that leaves the phone;
    `docs/08-publishing.md` before a release or store listing; `docs/09-voice.md` before
-   writing text for players; `brand/README.md` before any visual work; `adr/` before
+   writing text for players; `docs/10-channels.md` before drafting a post, a reply to a
+   review or a letter; `brand/README.md` before any visual work; `adr/` before
    proposing the opposite of a studio decision.
 
 ## Precedence
