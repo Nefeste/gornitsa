@@ -27,7 +27,8 @@ Read in this order (about 30 minutes):
 1. `README.md` — what lives here, precedence of rules, "one place for a fact".
 2. `docs/05-rules.md` — **hard rules for every game**, one line each with the decision behind it.
 3. `docs/04-process.md` — how work is done: docs in the repo, spec before code, ADR, versions,
-   CI only after merge, how code gets uploaded, what to do after a context reset.
+   fast CI on PRs and APK only on a tag (ADR 0019), who merges what (ADR 0018), how code
+   gets uploaded, what to do after a context reset.
 4. `docs/02-values.md` — what we promise players; every feature is checked against it.
 5. `docs/03-team.md` — roles, mailboxes, what an agent may do alone and what only the owner decides.
 6. The rest when the task touches it: `docs/06-content.md` before adding any text, picture or

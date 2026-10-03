@@ -6,13 +6,14 @@
 **Последние ADR:** [0017](adr/0017-repo-visibility.md), [0018](adr/0018-change-classes-automerge.md),
 [0019](adr/0019-ci-on-pr.md).
 
-**Что дальше, после слияния:**
+**Что сейчас:**
 
-- PR в проекты, где осталась старая формулировка: блок «Studio charter» в `AGENTS.md`
+- PR в проекты (ветка `claude/owner-decisions-2026-10-03` в каждом), где осталась старая формулировка: блок «Studio charter» в `AGENTS.md`
   (ссылка на `STATUS.md`), «CI только после слияния» и «сливает владелец» в
   `docs/05-process.md` игр, `runs-on: ubuntu-latest` в workflow (до 19.10.2026).
-- `CODEOWNERS`, `automerge.yml`, проверки на PR и `STATUS.md` во всех репозиториях.
+- `CODEOWNERS`, `automerge.yml` (кроме сайта), проверки на PR и `STATUS.md` во всех
+  репозиториях; `gornitsa-kit` создан (открытый), пока пустой.
 - Реквизиты ИП — в [`docs/03-team.md`](docs/03-team.md#владелец) после регистрации.
 
-**Ждёт владельца:** защита веток и правило «ревью владельца кода»
-в настройках GitHub; доска GitHub Projects «Горница».
+**Ждёт владельца:** слияние PR в проектах; защита веток, обязательная проверка
+`checks`, «ревью владельца кода» и «Allow auto-merge» в настройках GitHub; доска GitHub Projects «Горница».
