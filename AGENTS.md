@@ -9,9 +9,10 @@ Documents are in Russian; this file is in English, like the `AGENTS.md` of the p
 Every project of the studio (`Nefeste/votchina`, `Nefeste/nardy`, `Nefeste/anamnez`,
 `Nefeste/skazy`, `Nefeste/uzory`, the site `Nefeste/gornitsagames`, the gateway `Nefeste/seni`)
 links here from its own `AGENTS.md`. The projects, the gateway and the studio's internal
-repository `Nefeste/uprava` are private; the charter and the site are public (studio
-ADR 0017). Agents reach the private ones through the «Claude» GitHub App. Read this charter **before changing anything in any
-project**, and again after a context reset. The repository is public; fetch files with
+repository `Nefeste/uprava` are private; the charter, the site and the shared kit
+`Nefeste/gornitsa-kit` are public (studio ADR 0017). Agents reach the private ones through
+the «Claude» GitHub App. Read this charter **before changing anything in any project**, and
+again after a context reset. The repository is public; fetch files with
 
 ```
 https://raw.githubusercontent.com/Nefeste/gornitsa/main/<path>
@@ -26,7 +27,8 @@ Read in this order (about 30 minutes):
 1. `README.md` — what lives here, precedence of rules, "one place for a fact".
 2. `docs/05-rules.md` — **hard rules for every game**, one line each with the decision behind it.
 3. `docs/04-process.md` — how work is done: docs in the repo, spec before code, ADR, versions,
-   CI only after merge, how code gets uploaded, what to do after a context reset.
+   fast CI on PRs and APK only on a tag (ADR 0019), who merges what (ADR 0018), how code
+   gets uploaded, what to do after a context reset.
 4. `docs/02-values.md` — what we promise players; every feature is checked against it.
 5. `docs/03-team.md` — roles, mailboxes, what an agent may do alone and what only the owner decides.
 6. The rest when the task touches it: `docs/06-content.md` before adding any text, picture or
