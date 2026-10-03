@@ -12,7 +12,6 @@
   (ссылка на `STATUS.md`), «CI только после слияния» и «сливает владелец» в
   `docs/05-process.md` игр, `runs-on: ubuntu-latest` в workflow (до 19.10.2026).
 - `CODEOWNERS`, `automerge.yml`, проверки на PR и `STATUS.md` во всех репозиториях.
-- Имя Telegram-бота — в [`docs/10-channels.md`](docs/10-channels.md).
 - Реквизиты ИП — в [`docs/03-team.md`](docs/03-team.md#владелец) после регистрации.
 
 **Ждёт владельца:** защита веток и правило «ревью владельца кода»

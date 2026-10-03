@@ -9,9 +9,10 @@ Documents are in Russian; this file is in English, like the `AGENTS.md` of the p
 Every project of the studio (`Nefeste/votchina`, `Nefeste/nardy`, `Nefeste/anamnez`,
 `Nefeste/skazy`, `Nefeste/uzory`, the site `Nefeste/gornitsagames`, the gateway `Nefeste/seni`)
 links here from its own `AGENTS.md`. The projects, the gateway and the studio's internal
-repository `Nefeste/uprava` are private; the charter and the site are public (studio
-ADR 0017). Agents reach the private ones through the «Claude» GitHub App. Read this charter **before changing anything in any
-project**, and again after a context reset. The repository is public; fetch files with
+repository `Nefeste/uprava` are private; the charter, the site and the shared kit
+`Nefeste/gornitsa-kit` are public (studio ADR 0017). Agents reach the private ones through
+the «Claude» GitHub App. Read this charter **before changing anything in any project**, and
+again after a context reset. The repository is public; fetch files with
 
 ```
 https://raw.githubusercontent.com/Nefeste/gornitsa/main/<path>
