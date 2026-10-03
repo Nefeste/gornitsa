@@ -15,8 +15,9 @@
 - **Папки `ios/` и `android/` генерируются** (Continuous Native Generation). Руками не
   создаются и не правятся; нативное поведение — в `app.json` и плагинах конфигурации —
   [ADR 0003](../adr/0003-expo-stack-ci.md).
-- **Сборка APK — в CI без EAS**, только после слияния в `main` и вручную —
-  [ADR 0003](../adr/0003-expo-stack-ci.md), [`04-process.md`](04-process.md#ветки-и-ci).
+- **Сборка APK — в CI без EAS**, только на тег или выпуск; на PR — быстрые проверки
+  без сборки; `runs-on: ubuntu-24.04` — [ADR 0003](../adr/0003-expo-stack-ci.md),
+  [ADR 0019](../adr/0019-ci-on-pr.md), [`04-process.md`](04-process.md#ветки-и-ci).
 - **Движок — чистый TypeScript**: без React, без `Date.now()`, без `Math.random()`. Время,
   случайность и права игрока приходят аргументами; одинаковый вход — одинаковый результат —
   [ADR 0004](../adr/0004-pure-engine-snapshots.md).
