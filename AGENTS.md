@@ -8,7 +8,9 @@ Documents are in Russian; this file is in English, like the `AGENTS.md` of the p
 
 Every project of the studio (`Nefeste/votchina`, `Nefeste/nardy`, `Nefeste/anamnez`,
 `Nefeste/skazy`, `Nefeste/uzory`, the site `Nefeste/gornitsagames`, the gateway `Nefeste/seni`)
-links here from its own `AGENTS.md`. Read this charter **before changing anything in any
+links here from its own `AGENTS.md`. The projects, the gateway and the studio's internal
+repository `Nefeste/uprava` are private; the charter and the site are public (studio
+ADR 0017). Agents reach the private ones through the «Claude» GitHub App. Read this charter **before changing anything in any
 project**, and again after a context reset. The repository is public; fetch files with
 
 ```
@@ -16,6 +18,8 @@ https://raw.githubusercontent.com/Nefeste/gornitsa/main/<path>
 ```
 
 or clone `https://github.com/Nefeste/gornitsa.git` next to the project.
+
+The current state of the charter is in `STATUS.md`.
 
 Read in this order (about 30 minutes):
 
@@ -70,8 +74,12 @@ same SDK is the reference.
 
 ## Things an agent never does alone
 
-Details are in `docs/03-team.md`. In short, without the owner's explicit go-ahead for this
-particular action an agent never merges into `main`, publishes to a store, sends an email or a
-public post on behalf of the studio, spends money or changes account settings. Never, even
+Details are in `docs/03-team.md`. In short, an agent never presses «Merge» itself: documents
+and code that touch no money, network, player data or deployment merge automatically after
+green CI and a `ревью: ок` label from a reviewer in another session; owner paths in
+`CODEOWNERS` and the charter are merged by the owner (studio ADR 0018). Without the
+owner's explicit go-ahead for this particular action an agent never publishes to a store,
+sends an email or a public post on behalf of the studio, spends money or changes account
+settings. Never, even
 with a go-ahead: enter or store passwords, keys or payment details, or mark content as checked
 (`review: checked`) — these are the owner's. Prepare everything up to that point and ask.
