@@ -12,6 +12,7 @@
 - **Стек — Expo / React Native / TypeScript**, рисование — Skia или SVG; версия Expo SDK —
   по возможности одна во всех играх (на 27.09.2026 — SDK 57). Документацию Expo и SDK читать
   по версии, не по памяти (`AGENTS.md` устава) — [ADR 0003](../adr/0003-expo-stack-ci.md).
+  ПК-игры — TypeScript, Electron и Three.js — [ADR 0021](../adr/0021-pc-stack.md).
 - **Папки `ios/` и `android/` генерируются** (Continuous Native Generation). Руками не
   создаются и не правятся; нативное поведение — в `app.json` и плагинах конфигурации —
   [ADR 0003](../adr/0003-expo-stack-ci.md).
