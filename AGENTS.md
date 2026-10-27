@@ -35,8 +35,10 @@ Read in this order (about 30 minutes):
    sound from outside; `docs/07-privacy.md` before touching anything that leaves the phone;
    `docs/08-publishing.md` before a release or store listing; `docs/09-voice.md` before
    writing text for players; `docs/10-channels.md` before drafting a post, a reply to a
-   review or a letter; `brand/README.md` before any visual work; `adr/` before
-   proposing the opposite of a studio decision.
+   review or a letter; `docs/11-new-games.md` before planning a new game or writing the spec
+   of a prototype, a vertical slice or a feature the player walks end to end;
+   `brand/README.md` before any visual work; `adr/` before proposing the opposite of a
+   studio decision.
 
 ## Precedence
 
